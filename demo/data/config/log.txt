@@ -1,0 +1,332 @@
+*********************** Log Started 2022-10-10T07:25:57Z ***********************
+07:25:57:******************************* libFAH ********************************
+07:25:57:       Date: Oct 20 2020
+07:25:57:       Time: 20:36:48
+07:25:57:   Revision: 5ca109d295a6245e2a2f590b3d0085ad5e567aeb
+07:25:57:     Branch: master
+07:25:57:   Compiler: GNU 8.3.0
+07:25:57:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+07:25:57:             -fdata-sections -O3 -funroll-loops -fno-pie
+07:25:57:   Platform: linux2 4.19.0-9-arm64
+07:25:57:       Bits: 64
+07:25:57:       Mode: Release
+07:25:57:****************************** FAHClient ******************************
+07:25:57:    Version: 7.6.21
+07:25:57:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+07:25:57:  Copyright: 2020 foldingathome.org
+07:25:57:   Homepage: https://foldingathome.org/
+07:25:57:       Date: Oct 20 2020
+07:25:57:       Time: 20:39:10
+07:25:57:   Revision: 6efbf0e138e22d3963e6a291f78dcb9c6422a278
+07:25:57:     Branch: master
+07:25:57:   Compiler: GNU 8.3.0
+07:25:57:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+07:25:57:             -fdata-sections -O3 -funroll-loops -fno-pie
+07:25:57:   Platform: linux2 4.19.0-9-arm64
+07:25:57:       Bits: 64
+07:25:57:       Mode: Release
+07:25:57:       Args: --http-addresses 0.0.0.0:7396 --allow 0/0 --web-allow 0/0
+07:25:57:             --command-allow-no-pass 0/0
+07:25:57:     Config: /config/config.xml
+07:25:57:******************************** CBang ********************************
+07:25:57:       Date: Oct 20 2020
+07:25:57:       Time: 18:38:03
+07:25:57:   Revision: 7e4ce85225d7eaeb775e87c31740181ca603de60
+07:25:57:     Branch: master
+07:25:57:   Compiler: GNU 8.3.0
+07:25:57:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+07:25:57:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+07:25:57:   Platform: linux2 4.19.0-9-arm64
+07:25:57:       Bits: 64
+07:25:57:       Mode: Release
+07:25:57:******************************* System ********************************
+07:25:57:        CPU: Unknown
+07:25:57:     CPU ID: 
+07:25:57:       CPUs: 4
+07:25:57:     Memory: 2.92GiB
+07:25:57:Free Memory: 1.49GiB
+07:25:57:    Threads: POSIX_THREADS
+07:25:57: OS Version: 5.10
+07:25:57:Has Battery: false
+07:25:57: On Battery: false
+07:25:57: UTC Offset: 2
+07:25:57:        PID: 126
+07:25:57:        CWD: /config
+07:25:57:         OS: Linux 5.10.25-linuxkit aarch64
+07:25:57:    OS Arch: ARM64
+07:25:57:       GPUs: 0
+07:25:57:       CUDA: Not detected: Failed to open dynamic library 'libcuda.so':
+07:25:57:             libcuda.so: cannot open shared object file: No such file or
+07:25:57:             directory
+07:25:57:     OpenCL: Not detected: clGetPlatformIDs() returned -1001
+07:25:57:***********************************************************************
+07:25:57:<config>
+07:25:57:  <!-- Slot Control -->
+07:25:57:  <power v='MEDIUM'/>
+07:25:57:
+07:25:57:  <!-- User Information -->
+07:25:57:  <team v='1063807'/>
+07:25:57:  <user v='Anonymous1063807'/>
+07:25:57:
+07:25:57:  <!-- Folding Slots -->
+07:25:57:  <slot id='0' type='CPU'/>
+07:25:57:</config>
+07:25:57:Trying to access database...
+07:25:57:Successfully acquired database lock
+07:25:57:FS00:Initialized folding slot 00: cpu:3
+07:25:57:WU00:FS00:Starting
+07:25:57:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 126 -checkpoint 15 -np 3
+07:25:57:WU00:FS00:Started FahCore on PID 140
+07:25:57:WU00:FS00:Core PID:144
+07:25:57:WU00:FS00:FahCore 0xa8 started
+07:25:58:WU00:FS00:0xa8:*********************** Log Started 2022-10-10T07:25:57Z ***********************
+07:25:58:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+07:25:58:WU00:FS00:0xa8:       Core: Gromacs
+07:25:58:WU00:FS00:0xa8:       Type: 0xa8
+07:25:58:WU00:FS00:0xa8:    Version: 0.0.12
+07:25:58:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+07:25:58:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+07:25:58:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+07:25:58:WU00:FS00:0xa8:       Date: Jan 16 2021
+07:25:58:WU00:FS00:0xa8:       Time: 19:29:29
+07:25:58:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+07:25:58:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+07:25:58:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+07:25:58:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+07:25:58:WU00:FS00:0xa8:       Bits: 64
+07:25:58:WU00:FS00:0xa8:       Mode: Release
+07:25:58:WU00:FS00:0xa8:       SIMD: arm_neon_asimd
+07:25:58:WU00:FS00:0xa8:     OpenMP: ON
+07:25:58:WU00:FS00:0xa8:       CUDA: OFF
+07:25:58:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 140 -checkpoint 15 -np 3
+07:25:58:WU00:FS00:0xa8:************************************ libFAH ************************************
+07:25:58:WU00:FS00:0xa8:       Date: Jan 16 2021
+07:25:58:WU00:FS00:0xa8:       Time: 19:29:00
+07:25:58:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+07:25:58:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+07:25:58:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+07:25:58:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+07:25:58:WU00:FS00:0xa8:       Bits: 64
+07:25:58:WU00:FS00:0xa8:       Mode: Release
+07:25:58:WU00:FS00:0xa8:************************************ CBang *************************************
+07:25:58:WU00:FS00:0xa8:       Date: Jan 16 2021
+07:25:58:WU00:FS00:0xa8:       Time: 19:28:44
+07:25:58:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+07:25:58:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+07:25:58:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+07:25:58:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+07:25:58:WU00:FS00:0xa8:       Bits: 64
+07:25:58:WU00:FS00:0xa8:       Mode: Release
+07:25:58:WU00:FS00:0xa8:************************************ System ************************************
+07:25:58:WU00:FS00:0xa8:        CPU: Cortex-A
+07:25:58:WU00:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+07:25:58:WU00:FS00:0xa8:       CPUs: 4
+07:25:58:WU00:FS00:0xa8:     Memory: 2.92GiB
+07:25:58:WU00:FS00:0xa8:Free Memory: 1.46GiB
+07:25:58:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+07:25:58:WU00:FS00:0xa8: OS Version: 5.10
+07:25:58:WU00:FS00:0xa8:Has Battery: false
+07:25:58:WU00:FS00:0xa8: On Battery: false
+07:25:58:WU00:FS00:0xa8: UTC Offset: 2
+07:25:58:WU00:FS00:0xa8:        PID: 144
+07:25:58:WU00:FS00:0xa8:        CWD: /config/work
+07:25:58:WU00:FS00:0xa8:********************************************************************************
+07:25:58:WU00:FS00:0xa8:Project: 18321 (Run 3, Clone 618, Gen 124)
+07:25:58:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+07:25:58:WU00:FS00:0xa8:Digital signatures verified
+07:25:58:WU00:FS00:0xa8:Calling: mdrun -c frame124.gro -s frame124.tpr -x frame124.xtc -cpi state.cpt -cpt 15 -nt 3 -ntmpi 1
+07:25:58:WU00:FS00:0xa8:Steps: first=31000000 total=31250000
+07:26:10:5:172.20.0.1:New Web session
+07:27:01:WU00:FS00:0xa8:Completed 63322 out of 250000 steps (25%)
+07:29:14:WU00:FS00:0xa8:Completed 65000 out of 250000 steps (26%)
+07:32:29:WU00:FS00:0xa8:Completed 67500 out of 250000 steps (27%)
+07:35:33:WU00:FS00:0xa8:Completed 70000 out of 250000 steps (28%)
+07:38:33:WU00:FS00:0xa8:Completed 72500 out of 250000 steps (29%)
+07:41:31:WU00:FS00:0xa8:Completed 75000 out of 250000 steps (30%)
+07:44:30:WU00:FS00:0xa8:Completed 77500 out of 250000 steps (31%)
+07:47:28:WU00:FS00:0xa8:Completed 80000 out of 250000 steps (32%)
+07:50:34:WU00:FS00:0xa8:Completed 82500 out of 250000 steps (33%)
+07:53:37:WU00:FS00:0xa8:Completed 85000 out of 250000 steps (34%)
+07:56:40:WU00:FS00:0xa8:Completed 87500 out of 250000 steps (35%)
+07:59:45:WU00:FS00:0xa8:Completed 90000 out of 250000 steps (36%)
+08:02:47:WU00:FS00:0xa8:Completed 92500 out of 250000 steps (37%)
+08:05:49:WU00:FS00:0xa8:Completed 95000 out of 250000 steps (38%)
+08:08:51:WU00:FS00:0xa8:Completed 97500 out of 250000 steps (39%)
+08:11:49:WU00:FS00:0xa8:Completed 100000 out of 250000 steps (40%)
+08:14:48:WU00:FS00:0xa8:Completed 102500 out of 250000 steps (41%)
+08:17:46:WU00:FS00:0xa8:Completed 105000 out of 250000 steps (42%)
+08:20:44:WU00:FS00:0xa8:Completed 107500 out of 250000 steps (43%)
+08:23:42:WU00:FS00:0xa8:Completed 110000 out of 250000 steps (44%)
+08:26:39:WU00:FS00:0xa8:Completed 112500 out of 250000 steps (45%)
+08:29:38:WU00:FS00:0xa8:Completed 115000 out of 250000 steps (46%)
+08:32:35:WU00:FS00:0xa8:Completed 117500 out of 250000 steps (47%)
+08:35:32:WU00:FS00:0xa8:Completed 120000 out of 250000 steps (48%)
+08:38:38:WU00:FS00:0xa8:Completed 122500 out of 250000 steps (49%)
+08:41:47:WU00:FS00:0xa8:Completed 125000 out of 250000 steps (50%)
+08:44:55:WU00:FS00:0xa8:Completed 127500 out of 250000 steps (51%)
+08:48:02:WU00:FS00:0xa8:Completed 130000 out of 250000 steps (52%)
+08:51:08:WU00:FS00:0xa8:Completed 132500 out of 250000 steps (53%)
+08:54:13:WU00:FS00:0xa8:Completed 135000 out of 250000 steps (54%)
+08:57:20:WU00:FS00:0xa8:Completed 137500 out of 250000 steps (55%)
+09:00:26:WU00:FS00:0xa8:Completed 140000 out of 250000 steps (56%)
+09:03:32:WU00:FS00:0xa8:Completed 142500 out of 250000 steps (57%)
+09:06:38:WU00:FS00:0xa8:Completed 145000 out of 250000 steps (58%)
+09:09:45:WU00:FS00:0xa8:Completed 147500 out of 250000 steps (59%)
+09:12:54:WU00:FS00:0xa8:Completed 150000 out of 250000 steps (60%)
+09:16:01:WU00:FS00:0xa8:Completed 152500 out of 250000 steps (61%)
+09:19:08:WU00:FS00:0xa8:Completed 155000 out of 250000 steps (62%)
+09:22:20:WU00:FS00:0xa8:Completed 157500 out of 250000 steps (63%)
+09:25:28:WU00:FS00:0xa8:Completed 160000 out of 250000 steps (64%)
+09:28:41:WU00:FS00:0xa8:Completed 162500 out of 250000 steps (65%)
+09:31:43:WU00:FS00:0xa8:Completed 165000 out of 250000 steps (66%)
+09:34:43:WU00:FS00:0xa8:Completed 167500 out of 250000 steps (67%)
+09:37:41:WU00:FS00:0xa8:Completed 170000 out of 250000 steps (68%)
+09:40:40:WU00:FS00:0xa8:Completed 172500 out of 250000 steps (69%)
+09:43:41:WU00:FS00:0xa8:Completed 175000 out of 250000 steps (70%)
+09:46:40:WU00:FS00:0xa8:Completed 177500 out of 250000 steps (71%)
+09:49:40:WU00:FS00:0xa8:Completed 180000 out of 250000 steps (72%)
+09:52:42:WU00:FS00:0xa8:Completed 182500 out of 250000 steps (73%)
+09:55:43:WU00:FS00:0xa8:Completed 185000 out of 250000 steps (74%)
+09:58:46:WU00:FS00:0xa8:Completed 187500 out of 250000 steps (75%)
+10:01:46:WU00:FS00:0xa8:Completed 190000 out of 250000 steps (76%)
+10:04:45:WU00:FS00:0xa8:Completed 192500 out of 250000 steps (77%)
+10:07:49:WU00:FS00:0xa8:Completed 195000 out of 250000 steps (78%)
+10:10:47:WU00:FS00:0xa8:Completed 197500 out of 250000 steps (79%)
+10:13:47:WU00:FS00:0xa8:Completed 200000 out of 250000 steps (80%)
+10:16:48:WU00:FS00:0xa8:Completed 202500 out of 250000 steps (81%)
+10:20:01:WU00:FS00:0xa8:Completed 205000 out of 250000 steps (82%)
+10:23:05:WU00:FS00:0xa8:Completed 207500 out of 250000 steps (83%)
+10:26:03:WU00:FS00:0xa8:Completed 210000 out of 250000 steps (84%)
+10:29:03:WU00:FS00:0xa8:Completed 212500 out of 250000 steps (85%)
+10:32:00:WU00:FS00:0xa8:Completed 215000 out of 250000 steps (86%)
+10:34:57:WU00:FS00:0xa8:Completed 217500 out of 250000 steps (87%)
+10:37:55:WU00:FS00:0xa8:Completed 220000 out of 250000 steps (88%)
+10:40:52:WU00:FS00:0xa8:Completed 222500 out of 250000 steps (89%)
+10:43:51:WU00:FS00:0xa8:Completed 225000 out of 250000 steps (90%)
+10:46:48:WU00:FS00:0xa8:Completed 227500 out of 250000 steps (91%)
+10:49:45:WU00:FS00:0xa8:Completed 230000 out of 250000 steps (92%)
+10:52:43:WU00:FS00:0xa8:Completed 232500 out of 250000 steps (93%)
+10:55:40:WU00:FS00:0xa8:Completed 235000 out of 250000 steps (94%)
+10:58:38:WU00:FS00:0xa8:Completed 237500 out of 250000 steps (95%)
+11:01:35:WU00:FS00:0xa8:Completed 240000 out of 250000 steps (96%)
+11:04:33:WU00:FS00:0xa8:Completed 242500 out of 250000 steps (97%)
+11:07:31:WU00:FS00:0xa8:Completed 245000 out of 250000 steps (98%)
+11:10:28:WU00:FS00:0xa8:Completed 247500 out of 250000 steps (99%)
+11:10:29:WU01:FS00:Connecting to assign1.foldingathome.org:80
+11:10:30:WU01:FS00:Assigned to work server 128.252.203.12
+11:10:30:WU01:FS00:Requesting new work unit for slot 00: cpu:3 from 128.252.203.12
+11:10:30:WU01:FS00:Connecting to 128.252.203.12:8080
+11:10:30:WU01:FS00:Downloading 6.65MiB
+11:10:39:WU01:FS00:Download 100.00%
+11:10:39:WU01:FS00:Download complete
+11:10:39:WU01:FS00:Received Unit: id:01 state:DOWNLOAD error:NO_ERROR project:18321 run:3 clone:427 gen:132 core:0xa8 unit:0x000001ab000000840000479100000003
+11:13:28:WU00:FS00:0xa8:Completed 250000 out of 250000 steps (100%)
+11:13:32:WU00:FS00:0xa8:Saving result file ../logfile_01.txt
+11:13:32:WU00:FS00:0xa8:Saving result file frame124.gro
+11:13:34:WU00:FS00:0xa8:Saving result file frame124.xtc
+11:13:34:WU00:FS00:0xa8:Saving result file md.log
+11:13:34:WU00:FS00:0xa8:Saving result file science.log
+11:13:34:WU00:FS00:0xa8:Saving result file state.cpt
+11:13:35:WU00:FS00:0xa8:Folding@home Core Shutdown: FINISHED_UNIT
+11:13:35:WU00:FS00:FahCore returned: FINISHED_UNIT (100 = 0x64)
+11:13:35:WU00:FS00:Sending unit results: id:00 state:SEND error:NO_ERROR project:18321 run:3 clone:618 gen:124 core:0xa8 unit:0x0000026a0000007c0000479100000003
+11:13:35:WU00:FS00:Uploading 15.03MiB to 128.252.203.12
+11:13:35:WU00:FS00:Connecting to 128.252.203.12:8080
+11:13:35:WU01:FS00:Starting
+11:13:35:WU01:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 01 -suffix 01 -version 706 -lifeline 126 -checkpoint 15 -np 3
+11:13:35:WU01:FS00:Started FahCore on PID 154
+11:13:35:WU01:FS00:Core PID:158
+11:13:35:WU01:FS00:FahCore 0xa8 started
+11:13:36:WU01:FS00:0xa8:*********************** Log Started 2022-10-10T11:13:35Z ***********************
+11:13:36:WU01:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+11:13:36:WU01:FS00:0xa8:       Core: Gromacs
+11:13:36:WU01:FS00:0xa8:       Type: 0xa8
+11:13:36:WU01:FS00:0xa8:    Version: 0.0.12
+11:13:36:WU01:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+11:13:36:WU01:FS00:0xa8:  Copyright: 2020 foldingathome.org
+11:13:36:WU01:FS00:0xa8:   Homepage: https://foldingathome.org/
+11:13:36:WU01:FS00:0xa8:       Date: Jan 16 2021
+11:13:36:WU01:FS00:0xa8:       Time: 19:29:29
+11:13:36:WU01:FS00:0xa8:   Compiler: GNU 8.3.0
+11:13:36:WU01:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+11:13:36:WU01:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+11:13:36:WU01:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+11:13:36:WU01:FS00:0xa8:       Bits: 64
+11:13:36:WU01:FS00:0xa8:       Mode: Release
+11:13:36:WU01:FS00:0xa8:       SIMD: arm_neon_asimd
+11:13:36:WU01:FS00:0xa8:     OpenMP: ON
+11:13:36:WU01:FS00:0xa8:       CUDA: OFF
+11:13:36:WU01:FS00:0xa8:       Args: -dir 01 -suffix 01 -version 706 -lifeline 154 -checkpoint 15 -np 3
+11:13:36:WU01:FS00:0xa8:************************************ libFAH ************************************
+11:13:36:WU01:FS00:0xa8:       Date: Jan 16 2021
+11:13:36:WU01:FS00:0xa8:       Time: 19:29:00
+11:13:36:WU01:FS00:0xa8:   Compiler: GNU 8.3.0
+11:13:36:WU01:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+11:13:36:WU01:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+11:13:36:WU01:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+11:13:36:WU01:FS00:0xa8:       Bits: 64
+11:13:36:WU01:FS00:0xa8:       Mode: Release
+11:13:36:WU01:FS00:0xa8:************************************ CBang *************************************
+11:13:36:WU01:FS00:0xa8:       Date: Jan 16 2021
+11:13:36:WU01:FS00:0xa8:       Time: 19:28:44
+11:13:36:WU01:FS00:0xa8:   Compiler: GNU 8.3.0
+11:13:36:WU01:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+11:13:36:WU01:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+11:13:36:WU01:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+11:13:36:WU01:FS00:0xa8:       Bits: 64
+11:13:36:WU01:FS00:0xa8:       Mode: Release
+11:13:36:WU01:FS00:0xa8:************************************ System ************************************
+11:13:36:WU01:FS00:0xa8:        CPU: Cortex-A
+11:13:36:WU01:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+11:13:36:WU01:FS00:0xa8:       CPUs: 4
+11:13:36:WU01:FS00:0xa8:     Memory: 2.92GiB
+11:13:36:WU01:FS00:0xa8:Free Memory: 1.37GiB
+11:13:36:WU01:FS00:0xa8:    Threads: POSIX_THREADS
+11:13:36:WU01:FS00:0xa8: OS Version: 5.10
+11:13:36:WU01:FS00:0xa8:Has Battery: false
+11:13:36:WU01:FS00:0xa8: On Battery: false
+11:13:36:WU01:FS00:0xa8: UTC Offset: 2
+11:13:36:WU01:FS00:0xa8:        PID: 158
+11:13:36:WU01:FS00:0xa8:        CWD: /config/work
+11:13:36:WU01:FS00:0xa8:********************************************************************************
+11:13:36:WU01:FS00:0xa8:Project: 18321 (Run 3, Clone 427, Gen 132)
+11:13:36:WU01:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+11:13:36:WU01:FS00:0xa8:Reading tar file core.xml
+11:13:36:WU01:FS00:0xa8:Reading tar file frame132.tpr
+11:13:37:WU01:FS00:0xa8:Digital signatures verified
+11:13:37:WU01:FS00:0xa8:Calling: mdrun -c frame132.gro -s frame132.tpr -x frame132.xtc -cpt 15 -nt 3 -ntmpi 1
+11:13:37:WU01:FS00:0xa8:Steps: first=33000000 total=33250000
+11:13:41:WU00:FS00:Upload 23.29%
+11:13:47:WU00:FS00:Upload 43.25%
+11:13:53:WU00:FS00:Upload 60.72%
+11:13:59:WU00:FS00:Upload 74.44%
+11:14:05:WU00:FS00:Upload 92.33%
+11:14:10:WU00:FS00:Upload complete
+11:14:10:WU00:FS00:Server responded WORK_ACK (400)
+11:14:10:WU00:FS00:Final credit estimate, 4600.00 points
+11:14:10:WU00:FS00:Cleaning up
+11:14:42:WU01:FS00:0xa8:Completed 1 out of 250000 steps (0%)
+11:17:41:WU01:FS00:0xa8:Completed 2500 out of 250000 steps (1%)
+11:18:51:FS00:Paused
+11:18:51:FS00:Shutting core down
+11:18:51:WU01:FS00:0xa8:Caught signal SIGINT(2) on PID 158
+11:18:51:WU01:FS00:0xa8:Exiting, please wait. . .
+11:18:53:WU01:FS00:0xa8:Folding@home Core Shutdown: INTERRUPTED
+11:18:53:WU01:FS00:FahCore returned: INTERRUPTED (102 = 0x66)
+11:19:47:Saving configuration to config.xml
+11:19:47:<config>
+11:19:47:  <!-- Slot Control -->
+11:19:47:  <power v='MEDIUM'/>
+11:19:47:
+11:19:47:  <!-- User Information -->
+11:19:47:  <team v='1063807'/>
+11:19:47:  <user v='Anonymous1063807'/>
+11:19:47:
+11:19:47:  <!-- Folding Slots -->
+11:19:47:  <slot id='0' type='CPU'>
+11:19:47:    <paused v='true'/>
+11:19:47:  </slot>
+11:19:47:</config>
+11:28:49:Caught signal SIGTERM(15) on PID 126
+11:28:49:Exiting, please wait. . .
+11:28:50:Clean exit

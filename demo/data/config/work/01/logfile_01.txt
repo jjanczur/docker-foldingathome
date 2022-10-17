@@ -1,0 +1,64 @@
+*********************** Log Started 2022-10-10T11:13:35Z ***********************
+************************** Gromacs Folding@home Core ***************************
+       Core: Gromacs
+       Type: 0xa8
+    Version: 0.0.12
+     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+  Copyright: 2020 foldingathome.org
+   Homepage: https://foldingathome.org/
+       Date: Jan 16 2021
+       Time: 19:29:29
+   Compiler: GNU 8.3.0
+    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+             -fdata-sections -O3 -funroll-loops -fno-pie
+   Platform: linux2 4.15.0-128-generic
+       Bits: 64
+       Mode: Release
+       SIMD: arm_neon_asimd
+     OpenMP: ON
+       CUDA: OFF
+       Args: -dir 01 -suffix 01 -version 706 -lifeline 154 -checkpoint 15 -np 3
+************************************ libFAH ************************************
+       Date: Jan 16 2021
+       Time: 19:29:00
+   Compiler: GNU 8.3.0
+    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+             -fdata-sections -O3 -funroll-loops -fno-pie
+   Platform: linux2 4.15.0-128-generic
+       Bits: 64
+       Mode: Release
+************************************ CBang *************************************
+       Date: Jan 16 2021
+       Time: 19:28:44
+   Compiler: GNU 8.3.0
+    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+   Platform: linux2 4.15.0-128-generic
+       Bits: 64
+       Mode: Release
+************************************ System ************************************
+        CPU: Cortex-A
+     CPU ID: Arm Family 8 Model 53 Stepping 0
+       CPUs: 4
+     Memory: 2.92GiB
+Free Memory: 1.37GiB
+    Threads: POSIX_THREADS
+ OS Version: 5.10
+Has Battery: false
+ On Battery: false
+ UTC Offset: 2
+        PID: 158
+        CWD: /config/work
+********************************************************************************
+Project: 18321 (Run 3, Clone 427, Gen 132)
+Unit: 0x00000000000000000000000000000000
+Reading tar file core.xml
+Reading tar file frame132.tpr
+Digital signatures verified
+Calling: mdrun -c frame132.gro -s frame132.tpr -x frame132.xtc -cpt 15 -nt 3 -ntmpi 1
+Steps: first=33000000 total=33250000
+Completed 1 out of 250000 steps (0%)
+Completed 2500 out of 250000 steps (1%)
+Caught signal SIGINT(2) on PID 158
+Exiting, please wait. . .
+Folding@home Core Shutdown: INTERRUPTED

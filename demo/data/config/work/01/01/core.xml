@@ -1,0 +1,8 @@
+<config><core-args v='-c frame132.gro
+    -s frame132.tpr
+    -x frame132.xtc'/><return v='*.log
+    *.xtc
+    *.xvg
+    state.cpt
+    *.gro'/>
+</config>

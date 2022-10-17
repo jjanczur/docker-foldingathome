@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  foldingathome:
+    image: lscr.io/linuxserver/foldingathome:latest
+    container_name: foldingathome
+    environment:
+      - PUID=501 # id $USER | grep uid=
+      - PGID=20 # id $USER | grep gid=
+      - TZ=Europe/Berlin
+    volumes:
+      - ./data/config:/config
+    ports:
+      - 7396:7396
+      - 36330:36330 #optional
+    restart: unless-stopped

@@ -1,0 +1,508 @@
+*********************** Log Started 2022-10-07T14:49:44Z ***********************
+14:49:44:******************************* libFAH ********************************
+14:49:44:       Date: Oct 20 2020
+14:49:44:       Time: 20:36:48
+14:49:44:   Revision: 5ca109d295a6245e2a2f590b3d0085ad5e567aeb
+14:49:44:     Branch: master
+14:49:44:   Compiler: GNU 8.3.0
+14:49:44:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+14:49:44:             -fdata-sections -O3 -funroll-loops -fno-pie
+14:49:44:   Platform: linux2 4.19.0-9-arm64
+14:49:44:       Bits: 64
+14:49:44:       Mode: Release
+14:49:44:****************************** FAHClient ******************************
+14:49:44:    Version: 7.6.21
+14:49:44:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+14:49:44:  Copyright: 2020 foldingathome.org
+14:49:44:   Homepage: https://foldingathome.org/
+14:49:44:       Date: Oct 20 2020
+14:49:44:       Time: 20:39:10
+14:49:44:   Revision: 6efbf0e138e22d3963e6a291f78dcb9c6422a278
+14:49:44:     Branch: master
+14:49:44:   Compiler: GNU 8.3.0
+14:49:44:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+14:49:44:             -fdata-sections -O3 -funroll-loops -fno-pie
+14:49:44:   Platform: linux2 4.19.0-9-arm64
+14:49:44:       Bits: 64
+14:49:44:       Mode: Release
+14:49:44:       Args: --http-addresses 0.0.0.0:7396 --allow 0/0 --web-allow 0/0
+14:49:44:             --command-allow-no-pass 0/0
+14:49:44:     Config: /config/config.xml
+14:49:44:******************************** CBang ********************************
+14:49:44:       Date: Oct 20 2020
+14:49:44:       Time: 18:38:03
+14:49:44:   Revision: 7e4ce85225d7eaeb775e87c31740181ca603de60
+14:49:44:     Branch: master
+14:49:44:   Compiler: GNU 8.3.0
+14:49:44:    Options: -faligned-new -std=c++11 -fsigned-char -ffunction-sections
+14:49:44:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+14:49:44:   Platform: linux2 4.19.0-9-arm64
+14:49:44:       Bits: 64
+14:49:44:       Mode: Release
+14:49:44:******************************* System ********************************
+14:49:44:        CPU: Unknown
+14:49:44:     CPU ID: 
+14:49:44:       CPUs: 4
+14:49:44:     Memory: 2.92GiB
+14:49:44:Free Memory: 1.49GiB
+14:49:44:    Threads: POSIX_THREADS
+14:49:44: OS Version: 5.10
+14:49:44:Has Battery: false
+14:49:44: On Battery: false
+14:49:44: UTC Offset: 2
+14:49:44:        PID: 123
+14:49:44:        CWD: /config
+14:49:44:         OS: Linux 5.10.25-linuxkit aarch64
+14:49:44:    OS Arch: ARM64
+14:49:44:       GPUs: 0
+14:49:44:       CUDA: Not detected: Failed to open dynamic library 'libcuda.so':
+14:49:44:             libcuda.so: cannot open shared object file: No such file or
+14:49:44:             directory
+14:49:44:     OpenCL: Not detected: clGetPlatformIDs() returned -1001
+14:49:44:***********************************************************************
+14:49:44:<config>
+14:49:44:  <!-- User Information -->
+14:49:44:  <team v='1063807'/>
+14:49:44:  <user v='Anonymous1063807'/>
+14:49:44:
+14:49:44:  <!-- Folding Slots -->
+14:49:44:  <slot id='0' type='CPU'/>
+14:49:44:</config>
+14:49:44:Trying to access database...
+14:49:44:Successfully acquired database lock
+14:49:44:FS00:Initialized folding slot 00: cpu:3
+14:49:44:WU00:FS00:Starting
+14:49:44:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 123 -checkpoint 15 -np 3
+14:49:44:WU00:FS00:Started FahCore on PID 137
+14:49:44:WU00:FS00:Core PID:141
+14:49:44:WU00:FS00:FahCore 0xa8 started
+14:49:45:WU00:FS00:0xa8:*********************** Log Started 2022-10-07T14:49:44Z ***********************
+14:49:45:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+14:49:45:WU00:FS00:0xa8:       Core: Gromacs
+14:49:45:WU00:FS00:0xa8:       Type: 0xa8
+14:49:45:WU00:FS00:0xa8:    Version: 0.0.12
+14:49:45:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+14:49:45:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+14:49:45:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+14:49:45:WU00:FS00:0xa8:       Date: Jan 16 2021
+14:49:45:WU00:FS00:0xa8:       Time: 19:29:29
+14:49:45:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+14:49:45:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+14:49:45:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+14:49:45:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+14:49:45:WU00:FS00:0xa8:       Bits: 64
+14:49:45:WU00:FS00:0xa8:       Mode: Release
+14:49:45:WU00:FS00:0xa8:       SIMD: arm_neon_asimd
+14:49:45:WU00:FS00:0xa8:     OpenMP: ON
+14:49:45:WU00:FS00:0xa8:       CUDA: OFF
+14:49:45:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 137 -checkpoint 15 -np 3
+14:49:45:WU00:FS00:0xa8:************************************ libFAH ************************************
+14:49:45:WU00:FS00:0xa8:       Date: Jan 16 2021
+14:49:45:WU00:FS00:0xa8:       Time: 19:29:00
+14:49:45:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+14:49:45:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+14:49:45:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+14:49:45:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+14:49:45:WU00:FS00:0xa8:       Bits: 64
+14:49:45:WU00:FS00:0xa8:       Mode: Release
+14:49:45:WU00:FS00:0xa8:************************************ CBang *************************************
+14:49:45:WU00:FS00:0xa8:       Date: Jan 16 2021
+14:49:45:WU00:FS00:0xa8:       Time: 19:28:44
+14:49:45:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+14:49:45:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+14:49:45:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+14:49:45:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+14:49:45:WU00:FS00:0xa8:       Bits: 64
+14:49:45:WU00:FS00:0xa8:       Mode: Release
+14:49:45:WU00:FS00:0xa8:************************************ System ************************************
+14:49:45:WU00:FS00:0xa8:        CPU: Cortex-A
+14:49:45:WU00:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+14:49:45:WU00:FS00:0xa8:       CPUs: 4
+14:49:45:WU00:FS00:0xa8:     Memory: 2.92GiB
+14:49:45:WU00:FS00:0xa8:Free Memory: 1.47GiB
+14:49:45:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+14:49:45:WU00:FS00:0xa8: OS Version: 5.10
+14:49:45:WU00:FS00:0xa8:Has Battery: false
+14:49:45:WU00:FS00:0xa8: On Battery: false
+14:49:45:WU00:FS00:0xa8: UTC Offset: 2
+14:49:45:WU00:FS00:0xa8:        PID: 141
+14:49:45:WU00:FS00:0xa8:        CWD: /config/work
+14:49:45:WU00:FS00:0xa8:********************************************************************************
+14:49:45:WU00:FS00:0xa8:Project: 18321 (Run 3, Clone 618, Gen 124)
+14:49:45:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+14:49:45:WU00:FS00:0xa8:Digital signatures verified
+14:49:45:WU00:FS00:0xa8:Calling: mdrun -c frame124.gro -s frame124.tpr -x frame124.xtc -cpi state.cpt -cpt 15 -nt 3 -ntmpi 1
+14:49:45:WU00:FS00:0xa8:Steps: first=31000000 total=31250000
+14:50:11:1:172.20.0.1:New Web session
+14:50:30:FS00:Shutting core down
+14:50:31:WU00:FS00:0xa8:Caught signal SIGINT(2) on PID 141
+14:50:31:WU00:FS00:0xa8:Exiting, please wait. . .
+14:50:45:Saving configuration to config.xml
+14:50:45:<config>
+14:50:45:  <!-- Slot Control -->
+14:50:45:  <power v='FULL'/>
+14:50:45:
+14:50:45:  <!-- User Information -->
+14:50:45:  <team v='1063807'/>
+14:50:45:  <user v='Anonymous1063807'/>
+14:50:45:
+14:50:45:  <!-- Folding Slots -->
+14:50:45:  <slot id='0' type='CPU'/>
+14:50:45:</config>
+14:50:46:WU00:FS00:0xa8:Completed 12492 out of 250000 steps (4%)
+14:50:47:WU00:FS00:0xa8:Completed 12500 out of 250000 steps (5%)
+14:50:48:WU00:FS00:0xa8:Folding@home Core Shutdown: INTERRUPTED
+14:50:49:WU00:FS00:FahCore returned: INTERRUPTED (102 = 0x66)
+14:50:49:WU00:FS00:Starting
+[93m14:50:49:WARNING:WU00:FS00:Changed SMP threads from 3 to 4 this can cause some work units to fail[0m
+[93m14:50:49:WARNING:WU00:FS00:AS lowered CPUs from 4 to 3[0m
+14:50:49:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 123 -checkpoint 15 -np 3
+14:50:49:WU00:FS00:Started FahCore on PID 151
+14:50:49:WU00:FS00:Core PID:155
+14:50:49:WU00:FS00:FahCore 0xa8 started
+14:50:49:WU00:FS00:0xa8:*********************** Log Started 2022-10-07T14:50:49Z ***********************
+14:50:49:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+14:50:49:WU00:FS00:0xa8:       Core: Gromacs
+14:50:50:WU00:FS00:0xa8:       Type: 0xa8
+14:50:50:WU00:FS00:0xa8:    Version: 0.0.12
+14:50:50:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+14:50:50:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+14:50:50:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+14:50:50:WU00:FS00:0xa8:       Date: Jan 16 2021
+14:50:50:WU00:FS00:0xa8:       Time: 19:29:29
+14:50:50:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+14:50:50:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+14:50:50:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+14:50:50:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+14:50:50:WU00:FS00:0xa8:       Bits: 64
+14:50:50:WU00:FS00:0xa8:       Mode: Release
+14:50:50:WU00:FS00:0xa8:       SIMD: arm_neon_asimd
+14:50:50:WU00:FS00:0xa8:     OpenMP: ON
+14:50:50:WU00:FS00:0xa8:       CUDA: OFF
+14:50:50:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 151 -checkpoint 15 -np 3
+14:50:50:WU00:FS00:0xa8:************************************ libFAH ************************************
+14:50:50:WU00:FS00:0xa8:       Date: Jan 16 2021
+14:50:50:WU00:FS00:0xa8:       Time: 19:29:00
+14:50:50:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+14:50:50:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+14:50:50:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+14:50:50:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+14:50:50:WU00:FS00:0xa8:       Bits: 64
+14:50:50:WU00:FS00:0xa8:       Mode: Release
+14:50:50:WU00:FS00:0xa8:************************************ CBang *************************************
+14:50:50:WU00:FS00:0xa8:       Date: Jan 16 2021
+14:50:50:WU00:FS00:0xa8:       Time: 19:28:44
+14:50:50:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+14:50:50:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+14:50:50:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+14:50:50:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+14:50:50:WU00:FS00:0xa8:       Bits: 64
+14:50:50:WU00:FS00:0xa8:       Mode: Release
+14:50:50:WU00:FS00:0xa8:************************************ System ************************************
+14:50:50:WU00:FS00:0xa8:        CPU: Cortex-A
+14:50:50:WU00:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+14:50:50:WU00:FS00:0xa8:       CPUs: 4
+14:50:50:WU00:FS00:0xa8:     Memory: 2.92GiB
+14:50:50:WU00:FS00:0xa8:Free Memory: 1.44GiB
+14:50:50:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+14:50:50:WU00:FS00:0xa8: OS Version: 5.10
+14:50:50:WU00:FS00:0xa8:Has Battery: false
+14:50:50:WU00:FS00:0xa8: On Battery: false
+14:50:50:WU00:FS00:0xa8: UTC Offset: 2
+14:50:50:WU00:FS00:0xa8:        PID: 155
+14:50:50:WU00:FS00:0xa8:        CWD: /config/work
+14:50:50:WU00:FS00:0xa8:********************************************************************************
+14:50:50:WU00:FS00:0xa8:Project: 18321 (Run 3, Clone 618, Gen 124)
+14:50:50:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+14:50:50:WU00:FS00:0xa8:Digital signatures verified
+14:50:50:WU00:FS00:0xa8:Calling: mdrun -c frame124.gro -s frame124.tpr -x frame124.xtc -cpi state.cpt -cpt 15 -nt 3 -ntmpi 1
+14:50:50:WU00:FS00:0xa8:Steps: first=31000000 total=31250000
+14:51:51:WU00:FS00:0xa8:Completed 12502 out of 250000 steps (5%)
+14:54:49:WU00:FS00:0xa8:Completed 15000 out of 250000 steps (6%)
+14:57:47:WU00:FS00:0xa8:Completed 17500 out of 250000 steps (7%)
+15:00:44:WU00:FS00:0xa8:Completed 20000 out of 250000 steps (8%)
+15:03:43:WU00:FS00:0xa8:Completed 22500 out of 250000 steps (9%)
+15:06:41:WU00:FS00:0xa8:Completed 25000 out of 250000 steps (10%)
+15:09:40:WU00:FS00:0xa8:Completed 27500 out of 250000 steps (11%)
+15:12:37:WU00:FS00:0xa8:Completed 30000 out of 250000 steps (12%)
+15:15:35:WU00:FS00:0xa8:Completed 32500 out of 250000 steps (13%)
+15:18:33:WU00:FS00:0xa8:Completed 35000 out of 250000 steps (14%)
+15:21:31:WU00:FS00:0xa8:Completed 37500 out of 250000 steps (15%)
+15:24:29:WU00:FS00:0xa8:Completed 40000 out of 250000 steps (16%)
+15:27:27:WU00:FS00:0xa8:Completed 42500 out of 250000 steps (17%)
+15:30:24:WU00:FS00:0xa8:Completed 45000 out of 250000 steps (18%)
+15:33:22:WU00:FS00:0xa8:Completed 47500 out of 250000 steps (19%)
+15:35:31:FS00:Shutting core down
+15:35:31:WU00:FS00:0xa8:Caught signal SIGINT(2) on PID 155
+15:35:31:WU00:FS00:0xa8:Exiting, please wait. . .
+15:35:33:WU00:FS00:FahCore returned: INTERRUPTED (102 = 0x66)
+15:35:34:WU00:FS00:Starting
+[93m15:35:34:WARNING:WU00:FS00:Changed SMP threads from 4 to 3 this can cause some work units to fail[0m
+15:35:34:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 123 -checkpoint 15 -np 3
+15:35:34:WU00:FS00:Started FahCore on PID 165
+15:35:34:WU00:FS00:Core PID:169
+15:35:34:WU00:FS00:FahCore 0xa8 started
+15:35:34:WU00:FS00:0xa8:*********************** Log Started 2022-10-07T15:35:34Z ***********************
+15:35:34:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+15:35:34:WU00:FS00:0xa8:       Core: Gromacs
+15:35:34:WU00:FS00:0xa8:       Type: 0xa8
+15:35:34:WU00:FS00:0xa8:    Version: 0.0.12
+15:35:34:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+15:35:34:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+15:35:34:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+15:35:34:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:35:34:WU00:FS00:0xa8:       Time: 19:29:29
+15:35:34:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:35:34:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:35:34:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+15:35:34:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:35:34:WU00:FS00:0xa8:       Bits: 64
+15:35:34:WU00:FS00:0xa8:       Mode: Release
+15:35:34:WU00:FS00:0xa8:       SIMD: arm_neon_asimd
+15:35:34:WU00:FS00:0xa8:     OpenMP: ON
+15:35:34:WU00:FS00:0xa8:       CUDA: OFF
+15:35:34:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 165 -checkpoint 15 -np 3
+15:35:34:WU00:FS00:0xa8:************************************ libFAH ************************************
+15:35:34:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:35:34:WU00:FS00:0xa8:       Time: 19:29:00
+15:35:34:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:35:34:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:35:34:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+15:35:34:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:35:34:WU00:FS00:0xa8:       Bits: 64
+15:35:34:WU00:FS00:0xa8:       Mode: Release
+15:35:34:WU00:FS00:0xa8:************************************ CBang *************************************
+15:35:34:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:35:34:WU00:FS00:0xa8:       Time: 19:28:44
+15:35:34:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:35:34:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:35:34:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+15:35:34:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:35:34:WU00:FS00:0xa8:       Bits: 64
+15:35:34:WU00:FS00:0xa8:       Mode: Release
+15:35:34:WU00:FS00:0xa8:************************************ System ************************************
+15:35:34:WU00:FS00:0xa8:        CPU: Cortex-A
+15:35:34:WU00:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+15:35:34:WU00:FS00:0xa8:       CPUs: 4
+15:35:34:WU00:FS00:0xa8:     Memory: 2.92GiB
+15:35:34:WU00:FS00:0xa8:Free Memory: 1.41GiB
+15:35:34:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+15:35:34:WU00:FS00:0xa8: OS Version: 5.10
+15:35:34:WU00:FS00:0xa8:Has Battery: false
+15:35:34:WU00:FS00:0xa8: On Battery: false
+15:35:34:WU00:FS00:0xa8: UTC Offset: 2
+15:35:34:WU00:FS00:0xa8:        PID: 169
+15:35:34:WU00:FS00:0xa8:        CWD: /config/work
+15:35:34:WU00:FS00:0xa8:********************************************************************************
+15:35:34:WU00:FS00:0xa8:Project: 18321 (Run 3, Clone 618, Gen 124)
+15:35:34:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+15:35:34:WU00:FS00:0xa8:Digital signatures verified
+15:35:34:WU00:FS00:0xa8:Calling: mdrun -c frame124.gro -s frame124.tpr -x frame124.xtc -cpi state.cpt -cpt 15 -nt 3 -ntmpi 1
+15:35:34:WU00:FS00:0xa8:Steps: first=31000000 total=31250000
+15:35:49:FS00:Shutting core down
+15:35:49:WU00:FS00:0xa8:Caught signal SIGINT(2) on PID 169
+15:35:49:WU00:FS00:0xa8:Exiting, please wait. . .
+15:36:30:Saving configuration to config.xml
+15:36:30:<config>
+15:36:30:  <!-- Slot Control -->
+15:36:30:  <power v='MEDIUM'/>
+15:36:30:
+15:36:30:  <!-- User Information -->
+15:36:30:  <team v='1063807'/>
+15:36:30:  <user v='Anonymous1063807'/>
+15:36:30:
+15:36:30:  <!-- Folding Slots -->
+15:36:30:  <slot id='0' type='CPU'/>
+15:36:30:</config>
+15:36:35:WU00:FS00:0xa8:Completed 49322 out of 250000 steps (19%)
+15:36:37:WU00:FS00:0xa8:Folding@home Core Shutdown: INTERRUPTED
+15:36:37:WU00:FS00:FahCore returned: INTERRUPTED (102 = 0x66)
+15:36:37:WU00:FS00:Starting
+15:36:37:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 123 -checkpoint 15 -np 3
+15:36:37:WU00:FS00:Started FahCore on PID 179
+15:36:37:WU00:FS00:Core PID:183
+15:36:37:WU00:FS00:FahCore 0xa8 started
+15:36:38:WU00:FS00:0xa8:*********************** Log Started 2022-10-07T15:36:37Z ***********************
+15:36:38:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+15:36:38:WU00:FS00:0xa8:       Core: Gromacs
+15:36:38:WU00:FS00:0xa8:       Type: 0xa8
+15:36:38:WU00:FS00:0xa8:    Version: 0.0.12
+15:36:38:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+15:36:38:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+15:36:38:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+15:36:38:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:36:38:WU00:FS00:0xa8:       Time: 19:29:29
+15:36:38:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:36:38:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:36:38:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+15:36:38:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:36:38:WU00:FS00:0xa8:       Bits: 64
+15:36:38:WU00:FS00:0xa8:       Mode: Release
+15:36:38:WU00:FS00:0xa8:       SIMD: arm_neon_asimd
+15:36:38:WU00:FS00:0xa8:     OpenMP: ON
+15:36:38:WU00:FS00:0xa8:       CUDA: OFF
+15:36:38:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 179 -checkpoint 15 -np 3
+15:36:38:WU00:FS00:0xa8:************************************ libFAH ************************************
+15:36:38:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:36:38:WU00:FS00:0xa8:       Time: 19:29:00
+15:36:38:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:36:38:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:36:38:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+15:36:38:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:36:38:WU00:FS00:0xa8:       Bits: 64
+15:36:38:WU00:FS00:0xa8:       Mode: Release
+15:36:38:WU00:FS00:0xa8:************************************ CBang *************************************
+15:36:38:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:36:38:WU00:FS00:0xa8:       Time: 19:28:44
+15:36:38:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:36:38:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:36:38:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+15:36:38:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:36:38:WU00:FS00:0xa8:       Bits: 64
+15:36:38:WU00:FS00:0xa8:       Mode: Release
+15:36:38:WU00:FS00:0xa8:************************************ System ************************************
+15:36:38:WU00:FS00:0xa8:        CPU: Cortex-A
+15:36:38:WU00:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+15:36:38:WU00:FS00:0xa8:       CPUs: 4
+15:36:38:WU00:FS00:0xa8:     Memory: 2.92GiB
+15:36:38:WU00:FS00:0xa8:Free Memory: 1.40GiB
+15:36:38:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+15:36:38:WU00:FS00:0xa8: OS Version: 5.10
+15:36:38:WU00:FS00:0xa8:Has Battery: false
+15:36:38:WU00:FS00:0xa8: On Battery: false
+15:36:38:WU00:FS00:0xa8: UTC Offset: 2
+15:36:38:WU00:FS00:0xa8:        PID: 183
+15:36:38:WU00:FS00:0xa8:        CWD: /config/work
+15:36:38:WU00:FS00:0xa8:********************************************************************************
+15:36:38:WU00:FS00:0xa8:Project: 18321 (Run 3, Clone 618, Gen 124)
+15:36:38:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+15:36:38:WU00:FS00:0xa8:Digital signatures verified
+15:36:38:WU00:FS00:0xa8:Calling: mdrun -c frame124.gro -s frame124.tpr -x frame124.xtc -cpi state.cpt -cpt 15 -nt 3 -ntmpi 1
+15:36:38:WU00:FS00:0xa8:Steps: first=31000000 total=31250000
+15:36:39:FS00:Finishing
+15:37:38:WU00:FS00:0xa8:Completed 49332 out of 250000 steps (19%)
+15:38:25:14:172.20.0.1:New Web session
+15:38:26:WU00:FS00:0xa8:Completed 50000 out of 250000 steps (20%)
+15:41:29:WU00:FS00:0xa8:Completed 52500 out of 250000 steps (21%)
+15:44:29:WU00:FS00:0xa8:Completed 55000 out of 250000 steps (22%)
+15:47:29:WU00:FS00:0xa8:Completed 57500 out of 250000 steps (23%)
+15:49:50:FS00:Paused
+15:49:50:FS00:Shutting core down
+15:49:50:WU00:FS00:0xa8:Caught signal SIGINT(2) on PID 183
+15:49:50:WU00:FS00:0xa8:Exiting, please wait. . .
+15:49:53:WU00:FS00:FahCore returned: INTERRUPTED (102 = 0x66)
+15:50:44:Saving configuration to config.xml
+15:50:44:<config>
+15:50:44:  <!-- Slot Control -->
+15:50:44:  <power v='MEDIUM'/>
+15:50:44:
+15:50:44:  <!-- User Information -->
+15:50:44:  <team v='1063807'/>
+15:50:44:  <user v='Anonymous1063807'/>
+15:50:44:
+15:50:44:  <!-- Folding Slots -->
+15:50:44:  <slot id='0' type='CPU'>
+15:50:44:    <paused v='true'/>
+15:50:44:  </slot>
+15:50:44:</config>
+15:51:19:FS00:Unpaused
+15:51:19:WU00:FS00:Starting
+15:51:19:WU00:FS00:Running FahCore: /app/usr/bin/FAHCoreWrapper /config/cores/cores.foldingathome.org/lin/64bit-aarch64/a8-0.0.12/Core_a8.fah/FahCore_a8 -dir 00 -suffix 01 -version 706 -lifeline 123 -checkpoint 15 -np 3
+15:51:19:WU00:FS00:Started FahCore on PID 193
+15:51:19:WU00:FS00:Core PID:197
+15:51:19:WU00:FS00:FahCore 0xa8 started
+15:51:19:WU00:FS00:0xa8:*********************** Log Started 2022-10-07T15:51:19Z ***********************
+15:51:19:WU00:FS00:0xa8:************************** Gromacs Folding@home Core ***************************
+15:51:19:WU00:FS00:0xa8:       Core: Gromacs
+15:51:19:WU00:FS00:0xa8:       Type: 0xa8
+15:51:19:WU00:FS00:0xa8:    Version: 0.0.12
+15:51:19:WU00:FS00:0xa8:     Author: Joseph Coffland <joseph@cauldrondevelopment.com>
+15:51:19:WU00:FS00:0xa8:  Copyright: 2020 foldingathome.org
+15:51:19:WU00:FS00:0xa8:   Homepage: https://foldingathome.org/
+15:51:19:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:51:19:WU00:FS00:0xa8:       Time: 19:29:29
+15:51:19:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:51:19:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:51:19:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+15:51:19:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:51:19:WU00:FS00:0xa8:       Bits: 64
+15:51:19:WU00:FS00:0xa8:       Mode: Release
+15:51:19:WU00:FS00:0xa8:       SIMD: arm_neon_asimd
+15:51:19:WU00:FS00:0xa8:     OpenMP: ON
+15:51:19:WU00:FS00:0xa8:       CUDA: OFF
+15:51:19:WU00:FS00:0xa8:       Args: -dir 00 -suffix 01 -version 706 -lifeline 193 -checkpoint 15 -np 3
+15:51:19:WU00:FS00:0xa8:************************************ libFAH ************************************
+15:51:19:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:51:19:WU00:FS00:0xa8:       Time: 19:29:00
+15:51:19:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:51:19:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:51:19:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie
+15:51:19:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:51:19:WU00:FS00:0xa8:       Bits: 64
+15:51:19:WU00:FS00:0xa8:       Mode: Release
+15:51:19:WU00:FS00:0xa8:************************************ CBang *************************************
+15:51:19:WU00:FS00:0xa8:       Date: Jan 16 2021
+15:51:19:WU00:FS00:0xa8:       Time: 19:28:44
+15:51:19:WU00:FS00:0xa8:   Compiler: GNU 8.3.0
+15:51:19:WU00:FS00:0xa8:    Options: -faligned-new -std=c++14 -fsigned-char -ffunction-sections
+15:51:19:WU00:FS00:0xa8:             -fdata-sections -O3 -funroll-loops -fno-pie -fPIC
+15:51:19:WU00:FS00:0xa8:   Platform: linux2 4.15.0-128-generic
+15:51:19:WU00:FS00:0xa8:       Bits: 64
+15:51:19:WU00:FS00:0xa8:       Mode: Release
+15:51:19:WU00:FS00:0xa8:************************************ System ************************************
+15:51:19:WU00:FS00:0xa8:        CPU: Cortex-A
+15:51:19:WU00:FS00:0xa8:     CPU ID: Arm Family 8 Model 53 Stepping 0
+15:51:19:WU00:FS00:0xa8:       CPUs: 4
+15:51:19:WU00:FS00:0xa8:     Memory: 2.92GiB
+15:51:19:WU00:FS00:0xa8:Free Memory: 1.40GiB
+15:51:19:WU00:FS00:0xa8:    Threads: POSIX_THREADS
+15:51:19:WU00:FS00:0xa8: OS Version: 5.10
+15:51:19:WU00:FS00:0xa8:Has Battery: false
+15:51:19:WU00:FS00:0xa8: On Battery: false
+15:51:19:WU00:FS00:0xa8: UTC Offset: 2
+15:51:19:WU00:FS00:0xa8:        PID: 197
+15:51:19:WU00:FS00:0xa8:        CWD: /config/work
+15:51:19:WU00:FS00:0xa8:********************************************************************************
+15:51:19:WU00:FS00:0xa8:Project: 18321 (Run 3, Clone 618, Gen 124)
+15:51:19:WU00:FS00:0xa8:Unit: 0x00000000000000000000000000000000
+15:51:19:WU00:FS00:0xa8:Digital signatures verified
+15:51:19:WU00:FS00:0xa8:Calling: mdrun -c frame124.gro -s frame124.tpr -x frame124.xtc -cpi state.cpt -cpt 15 -nt 3 -ntmpi 1
+15:51:20:WU00:FS00:0xa8:Steps: first=31000000 total=31250000
+15:51:45:Saving configuration to config.xml
+15:51:45:<config>
+15:51:45:  <!-- Slot Control -->
+15:51:45:  <power v='MEDIUM'/>
+15:51:45:
+15:51:45:  <!-- User Information -->
+15:51:45:  <team v='1063807'/>
+15:51:45:  <user v='Anonymous1063807'/>
+15:51:45:
+15:51:45:  <!-- Folding Slots -->
+15:51:45:  <slot id='0' type='CPU'/>
+15:51:45:</config>
+15:52:21:WU00:FS00:0xa8:Completed 59482 out of 250000 steps (23%)
+15:52:58:WU00:FS00:0xa8:Completed 60000 out of 250000 steps (24%)
+15:53:47:FS00:Finishing
+15:55:59:WU00:FS00:0xa8:Completed 62500 out of 250000 steps (25%)
+15:56:57:FS00:Paused
+15:56:57:FS00:Shutting core down
+15:56:57:WU00:FS00:0xa8:Caught signal SIGINT(2) on PID 197
+15:56:57:WU00:FS00:0xa8:Exiting, please wait. . .
+15:56:59:WU00:FS00:FahCore returned: INTERRUPTED (102 = 0x66)
+15:57:19:Caught signal SIGTERM(15) on PID 123
+15:57:19:Exiting, please wait. . .
+15:57:21:Saving configuration to config.xml
+15:57:21:<config>
+15:57:21:  <!-- Slot Control -->
+15:57:21:  <power v='MEDIUM'/>
+15:57:21:
+15:57:21:  <!-- User Information -->
+15:57:21:  <team v='1063807'/>
+15:57:21:  <user v='Anonymous1063807'/>
+15:57:21:
+15:57:21:  <!-- Folding Slots -->
+15:57:21:  <slot id='0' type='CPU'>
+15:57:21:    <paused v='true'/>
+15:57:21:  </slot>
+15:57:21:</config>
+15:57:21:Clean exit

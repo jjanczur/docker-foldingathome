@@ -1,0 +1,39 @@
+Calling: mdrun -c frame132.gro -s frame132.tpr -x frame132.xtc -cpt 15 -nt 3 -ntmpi 1
+Steps: first=33000000 total=33250000
+Reading file frame132.tpr, VERSION 2020.2 (single precision)
+This run will default to '-update gpu' as requested by the GMX_FORCE_UPDATE_DEFAULT_GPU environment variable. GPU update with domain decomposition lacks substantial testing and should be used with caution.
+Changing nstlist from 40 to 80, rlist from 1.281 to 1.322
+
+
+Update task on the GPU was required, by the GMX_FORCE_UPDATE_DEFAULT_GPU environment variable, but the following condition(s) were not satisfied:
+
+Either PME or short-ranged non-bonded interaction tasks must run on the GPU.
+Compatible GPUs must have been found.
+Only a CUDA build is supported.
+The number of coupled constraints is higher than supported in the CUDA LINCS code.
+
+Will use CPU version of update.
+
+Using 1 MPI thread
+Completed 1 out of 250000 steps (0%)
+Completed 2500 out of 250000 steps (1%)
+Caught signal SIGINT(2) on PID 158
+Exiting, please wait. . .
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 3 OpenMP threads 
+
+Setting the maximum number of constraint warnings to 2147483647
+starting mdrun 'Protein in water'
+33250000 steps,  66500.0 ps (continuing from step 33000000,  66000.0 ps).
+
+
+Received the remote second INT/TERM signal, stopping within 11 steps
+
+Folding@home Core Shutdown: INTERRUPTED
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      753.389      251.130      300.0
+                 (ns/day)    (hour/ns)
+Performance:        2.389       10.046
